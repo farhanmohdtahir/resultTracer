@@ -473,30 +473,30 @@ int main(){
         for (i=0; i<totalRef; i++){
             cout<<header[i]<<endl;
             // cout<<;
-            cout<<"\t\t17\t18\t19\t20\t21\t22\t17\t18\t19\t20\t21\t22\t"<<endl;
-            cout<<"TotalRead\t"<<a[i].totalReadRng<<"\t"<<b[i].totalReadRng<<"\t"<<c[i].totalReadRng<<"\t"<<d[i].totalReadRng<<"\t"<<e[i].totalReadRng<<"\t"<<f[i].totalReadRng<<"\t";
+            cout<<"\t\t17\t18\t19\t20\t21\t22\t"<<endl;
+            cout<<"TotalRead\t";
             cout<<a[i].totalReadCnt<<"\t"<<b[i].totalReadCnt<<"\t"<<c[i].totalReadCnt<<"\t"<<d[i].totalReadCnt<<"\t"<<e[i].totalReadCnt<<"\t"<<f[i].totalReadCnt<<endl;
-            cout<<"NoSubsRead\t"<<a[i].noSubs<<"\t"<<b[i].noSubs<<"\t"<<c[i].noSubs<<"\t"<<d[i].noSubs<<"\t"<<e[i].noSubs<<"\t"<<f[i].noSubs<<"\t";
+            cout<<"NoSubsRead\t";
             cout<<a[i].noSubs<<"\t"<<b[i].noSubs<<"\t"<<c[i].noSubs<<"\t"<<d[i].noSubs<<"\t"<<e[i].noSubs<<"\t"<<f[i].noSubs<<endl;
-            cout<<"softClip\t*\t*\t*\t*\t*\t*\t";
+            cout<<"softClip\t";
             cout<<a[i].softClipCnt<<"\t"<<b[i].softClipCnt<<"\t"<<c[i].softClipCnt<<"\t"<<d[i].softClipCnt<<"\t"<<e[i].softClipCnt<<"\t"<<f[i].softClipCnt<<endl;
-            cout<<"correctMap\t*\t*\t*\t*\t*\t*\t";
+            cout<<"correctMap\t";
             cout<<a[i].trueMapCnt<<"\t"<<b[i].trueMapCnt<<"\t"<<c[i].trueMapCnt<<"\t"<<d[i].trueMapCnt<<"\t"<<e[i].trueMapCnt<<"\t"<<f[i].trueMapCnt<<endl;
-            cout<<"misMap\t\t*\t*\t*\t*\t*\t*\t";
+            cout<<"misMap\t\t";
             cout<<a[i].misMapCnt<<"\t"<<b[i].misMapCnt<<"\t"<<c[i].misMapCnt<<"\t"<<d[i].misMapCnt<<"\t"<<e[i].misMapCnt<<"\t"<<f[i].misMapCnt<<endl;
-            cout<<"notMap\t\t*\t*\t*\t*\t*\t*\t";
+            cout<<"notMap\t\t";
             cout<<a[i].noMapCnt<<"\t"<<b[i].noMapCnt<<"\t"<<c[i].noMapCnt<<"\t"<<d[i].noMapCnt<<"\t"<<e[i].noMapCnt<<"\t"<<f[i].noMapCnt<<endl;
 
-            cout<<"SubsRead\t"<<a[i].subs<<"\t"<<b[i].subs<<"\t"<<c[i].subs<<"\t"<<d[i].subs<<"\t"<<e[i].subs<<"\t"<<f[i].subs<<"\t";
+            cout<<"SubsRead\t";
             cout<<a[i].subs<<"\t"<<b[i].subs<<"\t"<<c[i].subs<<"\t"<<d[i].subs<<"\t"<<e[i].subs<<"\t"<<f[i].subs<<endl;
-            cout<<"softClip\t*\t*\t*\t*\t*\t*\t";
+            cout<<"softClip\t";
             cout<<a[i].softClipCntSubs<<"\t"<<b[i].softClipCntSubs<<"\t"<<c[i].softClipCntSubs<<"\t"<<d[i].softClipCntSubs<<"\t"<<e[i].softClipCntSubs<<"\t"<<f[i].softClipCntSubs<<endl;
-            cout<<"correctMap\t*\t*\t*\t*\t*\t*\t";
+            cout<<"correctMap\t";
             cout<<a[i].trueMapCntSubs<<"\t"<<b[i].trueMapCntSubs<<"\t"<<c[i].trueMapCntSubs<<"\t"<<d[i].trueMapCntSubs<<"\t"<<e[i].trueMapCntSubs<<"\t"<<f[i].trueMapCntSubs<<endl;
-            cout<<"misMap\t\t*\t*\t*\t*\t*\t*\t";
+            cout<<"misMap\t\t";
             cout<<a[i].misMapCntSubs<<"\t"<<b[i].misMapCntSubs<<"\t"<<c[i].misMapCntSubs<<"\t"<<d[i].misMapCntSubs<<"\t"<<e[i].misMapCntSubs<<"\t"<<f[i].misMapCntSubs<<endl;
-            cout<<"notMap\t\t*\t*\t*\t*\t*\t*\t";
-            cout<<a[i].noMapCntSubs<<"\t"<<b[i].noMapCntSubs<<"\t"<<c[i].noMapCntSubs<<"\t"<<d[i].noMapCntSubs<<"\t"<<e[i].noMapCntSubs<<"\t"<<f[i].noMapCntSubs<<endl;
+            cout<<"notMap\t\t";
+            cout<<a[i].noMapCntSubs<<"\t"<<b[i].noMapCntSubs<<"\t"<<c[i].noMapCntSubs<<"\t"<<d[i].noMapCntSubs<<"\t"<<e[i].noMapCntSubs<<"\t"<<f[i].noMapCntSubs<<endl<<endl;
 
             // cout<<a[i].softClipCnt<<"\t"<<b[i].softClipCnt<<"\t"<<c[i].softClipCnt<<"\t"<<d[i].softClipCnt<<"\t"<<e[i].softClipCnt<<"\t"<<f[i].softClipCnt<<endl;
             // // cout<<a[i].noSubsCnt<<"\t"<<b[i].noSubsCnt<<"\t"<<c[i].noSubsCnt<<"\t"<<d[i].noSubsCnt<<"\t"<<e[i].noSubsCnt<<"\t"<<f[i].noSubsCnt<<endl;
